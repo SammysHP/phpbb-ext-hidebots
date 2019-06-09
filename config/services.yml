@@ -1,0 +1,7 @@
+services:
+  sammyshp.hidebots.listener:
+    class: sammyshp\hidebots\event\listener
+    arguments:
+      - '@auth'
+    tags:
+      - { name: event.listener }

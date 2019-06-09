@@ -1,0 +1,26 @@
+{
+  "name":        "sammyshp/hidebots",
+  "type":        "phpbb-extension",
+  "description": "Hide bot accounts from the \"Who is online\" list except for administrators",
+  "homepage":    "https://github.com/SammysHP/phpbb-ext-hidebots",
+  "version":     "1.0.0",
+  "time":        "2019-06-08",
+  "license":     "GPL-2.0",
+  "authors": [
+    {
+      "name":     "Sven Karsten Greiner",
+      "homepage": "https://www.sammyshp.de/",
+      "role":     "Developer"
+    }
+  ],
+  "require": {
+    "php":         ">=5.3.3",
+    "phpbb/phpbb": ">=3.1.10, <3.3"
+  },
+  "extra": {
+    "display-name": "Hide Bots",
+    "soft-require": {
+      "phpbb/phpbb": ">=3.1.10, <3.3"
+    }
+  }
+}
